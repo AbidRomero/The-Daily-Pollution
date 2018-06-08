@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navi{
+	background: #0033ff;
+	overflow: hidden;
+}
+
+.navi .menu{
+	list-style: none;
+	background: #00ffff; 
+}
+
+.navi .menu>li{
+	padding: 1em;
+	width: 8%;
+	float: left;
+}
+
+.navi .menu>li>a{
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.navi .menu>li: hover{
+	background: #00ccff;
+	cursor: pointer;
+}
+
+.nav li a:hover {
+  background-color:#00ccff;
+  padding: 5px 10px;
+  }
+  .nav > li{
+  float:left;
+  }
